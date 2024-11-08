@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vishalscm_gosample_1731086333404-pr-trigger-input-set
+  identifier: Build_vishalscm_gosample_1731086333404prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vishalscm_gosample_1731086333404
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
